@@ -11,10 +11,12 @@ select::-ms-expand {
   display:inline-flex;
   z-index:0;
   vertical-align: middle;
+  border: 1px solid #CCC;
 }
 .dropdown select{
   min-width: 75px;
   z-index: 1;
+  border: none;
 }
 .dropdown:before {
   display:block;
@@ -22,9 +24,8 @@ select::-ms-expand {
   content:'';
   right:0px;
   top:0px;
-  height:calc(100% - 4px);
+  height:calc(100%);
   width:30px;
-  margin:2px;
   background: #FFF url('../imgs/your-dropdown-arrow-image.png') center no-repeat;
   background-size: 13px;
   z-index:5;
