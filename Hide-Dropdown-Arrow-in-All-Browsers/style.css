@@ -24,7 +24,7 @@ select::-ms-expand {
   content:'';
   right:0px;
   top:0px;
-  height:calc(100%);
+  height:100%;
   width:30px;
   background: #FFF url('../imgs/your-dropdown-arrow-image.png') center no-repeat;
   background-size: 13px;
