@@ -1,0 +1,25 @@
+.dropdown{
+  position:relative;
+  display:inline-flex;
+  z-index:0;
+  vertical-align: middle;
+}
+.dropdown select{
+  z-index: 1;
+}
+.dropdown:before {
+     display:block;
+     position:absolute;
+     content:'';
+     right:0px;
+     top:0px;
+     height:calc(100% - 5px);
+     width:30px;
+     margin:1px;
+     background: #fff url('../imgs/your-dropdown-arrow-image.png') center no-repeat;
+     background-size: 13px;
+     z-index:5;
+     pointer-events:none;
+     filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../imgs/your-dropdown-arrow-image.png', sizingMethod='scale');
+     background:none !important;
+ }
