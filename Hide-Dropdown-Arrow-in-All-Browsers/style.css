@@ -8,7 +8,7 @@ select::-ms-expand {
 
 .dropdown{
   position:relative;
-  display:inline-flex;
+  display:inline-block;
   z-index:0;
   vertical-align: middle;
   border: 1px solid #CCC;
@@ -22,8 +22,8 @@ select::-ms-expand {
   display:block;
   position:absolute;
   content:'';
-  right:0px;
-  top:0px;
+  right:0;
+  top:0;
   height:100%;
   width:30px;
   background: #FFF url('../imgs/your-dropdown-arrow-image.png') center no-repeat;
