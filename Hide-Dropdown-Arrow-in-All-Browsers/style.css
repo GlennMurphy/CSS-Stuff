@@ -14,7 +14,7 @@ select::-ms-expand {
   border: 1px solid #CCC;
 }
 .dropdown select{
-  min-width: 75px;
+  padding-right: 30px;
   z-index: 1;
   border: none;
 }
@@ -25,7 +25,7 @@ select::-ms-expand {
   right:0;
   top:0;
   height:100%;
-  width:30px;
+  width:30px; /* Width of your custom dropdown arrow image*/
   background: #FFF url('../imgs/your-dropdown-arrow-image.png') center no-repeat;
   background-size: 13px;
   z-index:5;
